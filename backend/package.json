@@ -4,9 +4,12 @@
   "description": "a complete backend(core logic for running a RAG chatbot with hugging face inference)",
   "license": "ISC",
   "author": "Ankit Shekhar",
-  "type": "commonjs",
+  "type": "module",
   "main": "step1.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "@huggingface/inference": "^4.13.14"
   }
 }
