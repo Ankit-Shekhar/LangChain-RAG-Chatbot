@@ -1,0 +1,12 @@
+{
+  "name": "langgraph-rag-backend",
+  "version": "1.0.0",
+  "description": "a complete backend(core logic for running a RAG chatbot with hugging face inference)",
+  "license": "ISC",
+  "author": "Ankit Shekhar",
+  "type": "commonjs",
+  "main": "step1.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  }
+}
