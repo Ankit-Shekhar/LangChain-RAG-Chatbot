@@ -1,0 +1,8 @@
+{
+  "dependencies": {
+    "@langchain/community": "^1.1.22",
+    "@langchain/core": "^1.1.30",
+    "langchain": "^1.2.29",
+    "pdf-parse": "^1.1.4"
+  }
+}
