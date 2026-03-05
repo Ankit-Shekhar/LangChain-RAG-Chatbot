@@ -11,6 +11,7 @@
   },
   "dependencies": {
     "@huggingface/inference": "^4.13.14",
+    "@langchain/textsplitters": "^1.0.1",
     "dotenv": "^17.3.1"
   }
 }
