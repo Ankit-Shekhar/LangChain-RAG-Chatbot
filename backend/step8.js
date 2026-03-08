@@ -123,7 +123,7 @@ class PdfQA {
 async function main() {
     const pdfQA = new PdfQA({
         model: "deepset/roberta-base-squad2",
-        pdfDocumentPath: path.join("..", "materials", "Ankit Shekhar__14942723010.pdf"),
+        pdfDocumentPath: path.join("..", "materials", "Ankit_Shekhar_Final_Resume.pdf"),
         chunkSize: 1000,
         chunkOverlap: 0,
         searchType: "similarity",
@@ -134,7 +134,7 @@ async function main() {
 
     const pdfQaChain = pdfQA.queryChain();
 
-    const answer1 = await pdfQaChain({ query: "In numeric mode, permissions are represented by?" });
+    const answer1 = await pdfQaChain({ query: "What are the projects on which Ankit has worked on?" });
     // console.log( "🤖", answer1.text, "\n" );
     // console.log( "# of documents used as context: ", answer1.docs?.length ?? 0, "\n" );
     // console.log( "Chat history:", JSON.stringify(answer1.history, null, 2) );
